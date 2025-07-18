@@ -19,7 +19,10 @@ provider "azurerm" {
       prevent_deletion_if_contains_resources = false
     }
   }
+  subscription_id = "4b833d96-11d2-43bf-ac69-7baf7305341b"
+  tenant_id       = "0e0c2c6b-835a-4d45-8a92-4fac0d3be692"
 }
+
 
 
 ## Section to provide a random Azure region for the resource group
